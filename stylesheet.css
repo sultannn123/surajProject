@@ -1,0 +1,331 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: border-box;
+	font-family: Arial;
+}
+body{
+	background-color: whitesmoke;
+}
+/* header design */
+#header{
+    position: fixed;
+	left: 0px;
+	width: 100%;
+	padding: 0;
+	z-index: 2;
+    height: 70px;
+	background: #fffcfb;
+	align-items: center;
+	display: flex;
+}
+.header{
+	text-align: center;
+	margin: 0px;
+	position: relative;
+}
+/* logo design */
+#logo{
+	width: 11em;
+	height: 8em;
+	margin-left: 0px;
+	position: flex;
+	margin-top: 2px;
+}
+/* Who is the cloth for? */
+#cloth-for div{
+	color: black;
+	font-weight: bolder;
+	font-size: small;
+	position: relative;
+	text-decoration: none;
+	display: inline;
+	margin: 5px;
+	align-items: center;
+}
+.hover-list{
+	display: none;
+	position: relative;
+	top: calc(100% + 20%);
+	left: 0;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	width: 0px;
+	height: 0px;
+	overflow: auto;
+}
+/* .margin{
+	position: absolute;
+	z-index: -3;
+} */
+.hover-list li{
+	padding: 2px 4px;
+	top: 100px;
+	list-style: none;
+}
+.hover-list a{
+	top: 10px;
+	list-style: none;
+}
+.list:hover .hover-list{
+	display: block;
+	width: 800px;
+	height: 500px;
+	align-items: center;
+	position: absolute;
+	left: -40px;
+	z-index: -10;
+}
+.list:hover a{
+	display: block;
+}
+/* search for input css */
+#input{
+	width: 350px;
+	height: 35px;
+	border: none;
+	margin-left: 4px;
+	background-color: #f3f0f0;
+}
+#sear-icon{
+	background-color: none;
+	margin: 5px;
+}
+.search{
+	border: 1px solid #464040;
+	border-radius: 5px;
+	margin-left: 75px;
+	background-color: #f3f0f0;
+
+}
+/* wishlist color */
+.fa{
+	color: rgb(3, 3, 3);
+}
+/* icon details */
+.icon{
+	width: 30px;
+	height: 35px;
+	text-align: center;
+	align-items: center;
+	color: black;
+	font-size: 0.8em;
+	margin: 25px;
+}
+.profile{
+	width: 30px;
+	height: 35px;
+	text-align: center;
+	align-items: center;
+	color: black;
+	font-size: 0.8em;
+	margin: 20px;
+}
+.bag{
+	width: 30px;
+	height: 35px;
+	text-align: center;
+	align-items: center;
+	color: black;
+	font-size: 0.8em;
+	margin: 20px;
+}
+/* advertisment for cloth */
+
+.main{
+	width: 100%;
+	height: 400px;
+}
+.swiper{
+	width: 100%;
+	height: 300px;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.swipper-wrapper, .swiper-slide{
+	width: 100%;
+	height: 300px;
+}
+.swiper-slide img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+.swiper {
+	top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.div-show{
+	height: 50px;
+	width: 50px;
+	color: #464040;
+	border-radius: 100%;
+	background: #ffffff;
+}
+  
+/* model design represent website */
+
+.repre-cloth{
+	top: 70px;
+	width: 100%;
+	height: 320px;
+	margin-top: 70px;
+}
+.coth2d{
+	background-color: hsl(0, 0%, 100%);
+	width: 100%;
+	margin-top: 10px;
+	height: 300px;
+	position: absolute;
+}
+.model{
+	width: 100%;
+	height: 300px;
+	position: relative;
+	justify-content: flex-start;
+}
+#model1{
+	width: 210px;
+	height: 280px;
+	margin-left: 5px;
+}
+#model2{
+	width: 230px;
+	height: 280px;
+	margin-left: 5px;
+}
+#model3{
+	width: 230px;
+	height: 280px;
+	margin-left: 5px;
+}
+#model4{
+	width: 230px;
+	height: 280px;
+	margin-left: 5px;
+}
+/* third div  */
+#shopping{
+	margin-top: 300px;
+	display: inline-flex;
+	width: 100%;
+	height: 300px;
+	justify-content: space-around;
+	border-radius: 20px;
+	align-items: center;
+	box-shadow: 2px 2px rgb(204, 203, 203);
+	background-color: azure;
+}
+#shopping div{
+	width: 250px;
+	height: 250px;
+	border-radius: 10px;
+	box-shadow: 3px 3px rgb(204, 203, 203);
+}
+#shopping img{
+	width: 250px;
+	height: 250px;
+	border-radius: 10px;
+}
+.dialog-shop h2{
+	top: 10px;
+	align-items: center;
+	text-align: center;
+}
+/* shopping section */
+.shop-sec{
+	border: 2px solid transparent;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #ebece7;
+}	
+.box {
+/*	border: 1px solid black;*/
+	height: 390px;
+	border-radius: 10px;
+	width: 23%;
+	background-color: white;
+	padding: 20px 0px 15px;
+	margin-top: 15px;
+}
+.box-img1{
+	height: 220px;
+	background-size: cover;
+	margin-top: 1rem;
+	border-radius: 5px;
+	box-shadow: 2px 2px #c7bbc3;
+	margin-bottom: 1rem;
+}
+.content{
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.angle2{
+	font-size: 0.85rem;
+	color: #222f3d;
+}
+.angle2:hover{
+	color: blue;
+}
+.box:hover{
+	border-top: 2px solid pink;
+	border-left: 2px solid black;
+	border-bottom: 2px solid red;
+	border-right: 2px solid green;
+
+}
+/* footer start */
+/* first div footer */
+.dist{
+	width: 100%;
+	height: 500px;
+	background-color: white;
+}
+/* 2nd div in list all website categaries */
+.foot-panel2{
+	background-color: #8aa2b1;
+	color: rgb(2, 2, 2);
+	height: 290px;
+	display: flex;
+	justify-content: space-evenly;
+}
+u{
+	margin-top: 20px;
+	text-decoration: none;
+
+}
+u p{
+	color: #000000;
+	font-weight: 700;
+}
+u a{
+	display: block;
+	font-size: 0.70rem;
+	margin-top: 10px;
+	color: #000000;
+}
+/* social media follow for trendify */
+.socialmedia{
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #8f8989;
+}
+.fa-brands{
+	font-size: 30px;
+	margin: 10px;
+}
